@@ -1,0 +1,70 @@
+USE [BioStar]
+GO
+
+/****** Object:  StoredProcedure [dbo].[GuardTemplate]    Script Date: 04/02/2015 19:00:21 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+CREATE PROC [dbo].[GuardTemplate]
+(
+	@nUserIdnTmp int,
+	@nFingerIndexTmp int,
+	@nIndexTmp int,
+	@templateTmp binary(384),
+	@templateTmp2 binary(384)
+)
+AS
+
+BEGIN
+
+	DECLARE @iERROR INT
+
+	BEGIN TRAN
+		-- (1) UserTemplate 테이블에 저장된 지문데이터는 지워버린다.
+
+		delete from TB_USER_TEMPLATE where nUserIdn = @nUserIdnTmp and nFingerIndex = @nFingerIndexTmp
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+
+		-- (2) 새로운 손가락 지문템플릿을 UserTemplate 테이블에 2개 신규 insert한다.
+
+		insert into TB_USER_TEMPLATE(nUserIdn, nIndex, bTemplate, nTemplatecs, nDuress,
+		nEncryption, nSecurityLevel, nFingerIndex, nTemplateIndex) 
+		VALUES (@nUserIdnTmp, @nIndexTmp, @templateTmp, '40837', '0', '0', '260', @nFingerIndexTmp, '0');
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+
+		insert into TB_USER_TEMPLATE(nUserIdn, nIndex, bTemplate, nTemplatecs, nDuress,
+		nEncryption, nSecurityLevel, nFingerIndex, nTemplateIndex) 
+		VALUES (@nUserIdnTmp, @nIndexTmp, @templateTmp2, '37921', '0', '0', '260', @nFingerIndexTmp, '1');
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+
+		-- (5) DB 활성화
+		update TB_EXTNL_REQ set sValue = '1'
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+	
+	COMMIT TRAN
+	RETURN @iERROR
+
+	Err_1:
+		ROLLBACK TRAN
+		RETURN @iERROR
+	
+
+end
+
+GO
+
+

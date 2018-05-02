@@ -1,0 +1,340 @@
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Release\BMClient.exe
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Release\BMClient.pdb
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Release\AESClass.dll
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Release\Interop.ADOX.dll
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.exe
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\BMClient.exe
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\BMClient.pdb
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\AESClass.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\Microsoft.Office.Interop.Excel.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\Microsoft.Vbe.Interop.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\office.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\Microsoft.Office.Interop.Excel.xml
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\office.xml
+D:\BM월성1차최종\BMClient\BMClient\bin\Release\Interop.ADOX.dll
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.exe
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\office.dll
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\office.xml
+D:\BM월성1차최종\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BM월성1차최종\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\BM월성\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.exe
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\BM월성\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BM월성\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BM월성\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\BM월성\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\BM월성\BMClient\BMClient\bin\Debug\office.dll
+D:\BM월성\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\BM월성\BMClient\BMClient\bin\Debug\office.xml
+D:\BM월성\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BM월성\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\BM월성\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\bm\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\bm\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\bm\BMClient\BMClient\obj\Release\BMClient.exe
+D:\bm\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\bm\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\bm\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\bm\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\bm\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\bm\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\bm\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\bm\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\bm\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\BM울진\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.exe
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\BM울진\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BM울진\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BM울진\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\BM울진\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\BM울진\BMClient\BMClient\bin\Debug\office.dll
+D:\BM울진\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\BM울진\BMClient\BMClient\bin\Debug\office.xml
+D:\BM울진\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BM울진\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\BM울진\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.exe
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\Hub\BM\BM울진\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\Hub\BM\BM울진\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\Hub\BM\BM울진\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\Hub\BM\BM울진\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.exe
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\ResolveAssemblyReference.cache
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.AuthRetryForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_BatchProcessing.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Code_Modify.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_Compare.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Login.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Main.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_001.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_002.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Opr_003.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_PinInput.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_Reg_001.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_Reg_002.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_Reg_Code.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_ReReg.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.BM_Result.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_001.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_004.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Rpt_005.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_001.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_002.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_003.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_004.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_005.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_006.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_007.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Bm_Sys_008.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BS_SDK.CardReadForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.CardRestoreForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.EndDateSetting.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BS_SDK.FPRegisterForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.LoadingForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.MainForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.PlantRegForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.Properties.Resources.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.YesNoForm.resources
+D:\허브_프로그램개발관련 자료\BM영광\BMClient\BMClient\obj\Release\BMClient.csproj.GenerateResource.Cache
+\\192.168.1.240\public\06. 개인폴더\장순중_공용\81.  BM_AFTER\02.  Code\BM영광\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+\\192.168.1.240\public\06. 개인폴더\장순중_공용\81.  BM_AFTER\02.  Code\BM영광\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+\\192.168.1.240\public\06. 개인폴더\장순중_공용\81.  BM_AFTER\02.  Code\BM영광\BMClient\BMClient\obj\Release\BMClient.exe
+\\192.168.1.240\public\06. 개인폴더\장순중_공용\81.  BM_AFTER\02.  Code\BM영광\BMClient\BMClient\obj\Release\BMClient.pdb
+D:\BM영광\BMClient\BMClient\obj\Release\Interop.ADOX.dll
+D:\BM영광\BMClient\BMClient\obj\Release\BMClient.csproj.ResolveComReference.cache
+D:\BM영광\BMClient\BMClient\obj\Release\BMClient.exe
+D:\BM영광\BMClient\BMClient\obj\Release\BMClient.pdb

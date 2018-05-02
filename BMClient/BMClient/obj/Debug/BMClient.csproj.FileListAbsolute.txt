@@ -1,0 +1,356 @@
+C:\BMClient\BMClient\bin\Debug\BMClient.exe
+C:\BMClient\BMClient\bin\Debug\BMClient.pdb
+C:\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+C:\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+C:\BMClient\BMClient\obj\Debug\BMClient.exe
+C:\BMClient\BMClient\obj\Debug\BMClient.pdb
+C:\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.exe
+F:\BMClient\BMClient\obj\Debug\BMClient.pdb
+F:\BMClient\BMClient\bin\Debug\BMClient.exe
+F:\BMClient\BMClient\bin\Debug\BMClient.pdb
+F:\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+F:\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+F:\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+C:\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+C:\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+C:\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+C:\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+C:\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\Bm0518\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\Bm0518\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\Bm0518\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\Bm0518\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\Bm0518\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Bm0518\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Bm0518\BMClient\BMClient\bin\Debug\office.dll
+D:\Bm0518\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Bm0518\BMClient\BMClient\bin\Debug\office.xml
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\Bm0518\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+C:\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+F:\BM고리1차최종버전\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+F:\BM고리1차최종버전\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+F:\BM고리1차최종버전\BMClient\BMClient\obj\Debug\BMClient.exe
+F:\BM고리1차최종버전\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\office.dll
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\office.xml
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\Bm0518\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.exe
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.pdb
+F:\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.exe
+F:\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.pdb
+F:\BMServer0615_W\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+F:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BMServer0615_W\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\office.dll
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\office.xml
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.EndDateSetting.resources
+D:\BM월성1차최종\BMServer0615_W\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_Code.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_Code.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_ReReg.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.CardRestoreForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.EndDateSetting.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\새 폴더\BM월성1차최종\BMClient\BMClient\obj\Debug\BMClient.pdb
+D:\BM영광\BMClient\BMClient\obj\Debug\ResolveAssemblyReference.cache
+D:\BM영광\BMClient\BMClient\obj\Debug\Interop.ADOX.dll
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.csproj.ResolveComReference.cache
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.AuthRetryForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_BatchProcessing.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Code_Modify.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_Compare.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Login.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Main.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_001.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_002.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Opr_003.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_PinInput.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_001.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_002.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_Reg_Code.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_ReReg.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.BM_Result.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_001.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_004.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Rpt_005.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_SearchCodeForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_001.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_002.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_003.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_004.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_005.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_006.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_007.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Bm_Sys_008.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BS_SDK.CardReadForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.CardRestoreForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.EndDateSetting.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BS_SDK.FPRegisterForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.LoadingForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.MainForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.PlantRegForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.Properties.Resources.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.YesNoForm.resources
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.csproj.GenerateResource.Cache
+D:\BM영광\BMClient\BMClient\bin\Debug\BMClient.exe
+D:\BM영광\BMClient\BMClient\bin\Debug\BMClient.pdb
+D:\BM영광\BMClient\BMClient\bin\Debug\Interop.ADOX.dll
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.exe
+D:\BM영광\BMClient\BMClient\obj\Debug\BMClient.pdb

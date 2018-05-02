@@ -1,0 +1,104 @@
+지문등록 프로시져 GuardTemplate 수정 쿼리(복사후 쿼리실행)
+
+USE [BioStar]
+GO
+/****** Object:  StoredProcedure [dbo].[GuardTemplate]    Script Date: 05/16/2016 09:09:03 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+ALTER PROC [dbo].[GuardTemplate]
+(
+	@sCardNo varchar (20),
+	@nFingerIndexTmp int,
+	@nIndexTmp int,
+	@templateTmp binary(384),
+	@templateTmp2 binary(384)
+	
+)
+AS
+
+BEGIN
+
+	DECLARE @iERROR INT
+	DECLARE	@nUserIdn int
+	BEGIN TRAN
+	
+		-- (0) 등록할 카드번호의 nUserIdn 값을 구한다
+		select @nUserIdn = nUserIdn from TB_USER_CARD where sCardNo =@sCardNo and nStatus = 1
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1	
+		
+	
+	
+	
+	
+		-- (1) UserTemplate 테이블에 저장된 지문데이터는 지워버린다.
+
+		delete from TB_USER_TEMPLATE where nUserIdn = @nUserIdn and nFingerIndex = @nFingerIndexTmp
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+
+		-- (2) 새로운 손가락 지문템플릿을 UserTemplate 테이블에 2개 신규 insert한다.
+
+		insert into TB_USER_TEMPLATE(nUserIdn, nIndex, bTemplate, nTemplatecs, nDuress,
+		nEncryption, nSecurityLevel, nFingerIndex, nTemplateIndex) 
+		VALUES (@nUserIdn, @nIndexTmp, @templateTmp, '40837', '0', '0', '260', '6', '0');
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+		
+		insert into TB_USER_TEMPLATE(nUserIdn, nIndex, bTemplate, nTemplatecs, nDuress,
+		nEncryption, nSecurityLevel, nFingerIndex, nTemplateIndex) 
+		VALUES (@nUserIdn, @nIndexTmp, @templateTmp2, '37921', '0', '0', '260', '6', '1');
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+
+		-- (5) DB 활성화
+		update TB_EXTNL_REQ set sValue = '1'
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+
+	
+	COMMIT TRAN
+	RETURN @iERROR
+
+	Err_1:
+		ROLLBACK TRAN
+		RETURN @iERROR
+	
+
+end
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+링크드 서버 등록방법
+
+1. 아래 쿼리 실행
+EXEC sp_addlinkedserver 
+       @server='plant1FP1',  -- 앞으로 사용할 링크드 서버이름입니다.(각각 발전소에맞게 2발전소이면 'plant1FP' 등록!)
+       @srvproduct = '', -- 공백처리 합니다.
+       @provider = 'SQLOLEDB', -- SQL 서버이면 그대로 씁니다.
+       @datasrc = '192.168.1.188', -- 아이피 적어 줍니다.       
+       @provstr='',   -- 공백처리 합니다.
+       @catalog='BioStar'   -- 특정 카다로그 즉 데이터 베이스 이름을 적습니다.
+
+GO 
+
+2. 연결할 서버의 로그인정보 등록함
+
+EXEC sp_addlinkedsrvlogin 'plant1FP', 'false', NULL, 'sa', '1q@'
+
+
+
+
+3. 등록확인용 쿼리
+
+select * from plant1FP.BioStar.dbo.TB_USER_TEMPLATE -- 각지문서버 등록지문 조회쿼리 이상없으면 정상
+
+잘못입력했을경우 DBMS에서 서버 개체- 연결된 서버 - plant1FP 삭제!

@@ -1,0 +1,194 @@
+[09:01:34]============================ depart : 
+[09:01:34][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[09:01:34]============================ depart : 
+[09:01:35][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[09:01:36]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 231
+[09:01:36]========================================================== [Reg.cs] selectionChanged ().........
+[09:01:36][CodeTable.cs] getDepartmentDesc (10164)231
+[09:01:36][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:01:36][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:01:36][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:01:36]PT : 1
+[09:01:37][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:01:37][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:01:37][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 43
+[09:01:37][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:01:37][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:01:37][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:01:37][BM_Reg_001.cs] arrTmp3 [0] : 43
+[09:01:37][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:01:37][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14244
+[09:01:37].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:02:00]============================ depart : 
+[09:02:01][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[09:02:01]============================ depart : 
+[09:02:01][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[09:02:02]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 231
+[09:02:02]========================================================== [Reg.cs] selectionChanged ().........
+[09:02:03][CodeTable.cs] getDepartmentDesc (10164)231
+[09:02:03][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:02:03][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:02:03][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:02:03]PT : 1
+[09:02:03][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:02:03][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:02:03][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 43
+[09:02:03][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:02:03][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:02:03][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:02:03][BM_Reg_001.cs] arrTmp3 [0] : 43
+[09:02:03][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:02:03][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14244
+[09:02:03].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:09]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:09][CodeTable.cs] getDepartmentDesc (10119)231
+[09:03:09][CodeTable.cs] getBadgeTypeDesc (2) : 방문
+[09:03:09][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:09][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:09]PT : 1
+[09:03:09][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:09][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:03:09][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 43
+[09:03:09][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:09][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:09][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:03:09][BM_Reg_001.cs] arrTmp3 [0] : 43
+[09:03:09][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:09][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14243
+[09:03:10].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:10]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:10][CodeTable.cs] getDepartmentDesc (10119)231
+[09:03:11][CodeTable.cs] getBadgeTypeDesc (4) : 한수원 사원증
+[09:03:11][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:11][CodeTable.cs] getBadgeFormatDesc (1) : Standard 10 Digit Badge
+[09:03:11]PT : 1
+[09:03:11][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:11][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:03:11][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 43
+[09:03:11][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:11][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:11][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:03:11][BM_Reg_001.cs] arrTmp3 [0] : 43
+[09:03:11][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:11][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 13799
+[09:03:11].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:11]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:12][CodeTable.cs] getDepartmentDesc (10118)231
+[09:03:12][CodeTable.cs] getBadgeTypeDesc (1) : 직원
+[09:03:12][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:12][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:12]PT : 1
+[09:03:12][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:12][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 17
+[09:03:12][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 42
+[09:03:12][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:12][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:12][BM_Reg_001.cs] arrTmp2 [0] : 17
+[09:03:12][BM_Reg_001.cs] arrTmp3 [0] : 42
+[09:03:12][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:12][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 10558
+[09:03:12].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:13]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:13][CodeTable.cs] getDepartmentDesc (10112)231
+[09:03:14][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:03:14][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:14][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:14]PT : 1
+[09:03:14][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:14][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 8~9~10
+[09:03:14][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[09:03:14][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:14][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:14][BM_Reg_001.cs] arrTmp2 [0] : 8
+[09:03:14][BM_Reg_001.cs] arrTmp2 [1] : 9
+[09:03:14][BM_Reg_001.cs] arrTmp2 [2] : 10
+[09:03:14][BM_Reg_001.cs] arrTmp3 [0] : -100
+[09:03:14][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:14][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14238
+[09:03:14].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:15]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:15][CodeTable.cs] getDepartmentDesc (10112)231
+[09:03:15][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:03:15][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:15][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:15]PT : 1
+[09:03:15][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:15][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 8~9~10
+[09:03:15][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[09:03:15][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:15][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:15][BM_Reg_001.cs] arrTmp2 [0] : 8
+[09:03:15][BM_Reg_001.cs] arrTmp2 [1] : 9
+[09:03:15][BM_Reg_001.cs] arrTmp2 [2] : 10
+[09:03:15][BM_Reg_001.cs] arrTmp3 [0] : -100
+[09:03:15][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:15][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14239
+[09:03:16].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:16]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:16][CodeTable.cs] getDepartmentDesc (10145)231
+[09:03:17][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:03:17][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:17][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:17]PT : 1
+[09:03:17][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:17][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:03:17][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 42
+[09:03:17][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:17][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:17][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:03:17][BM_Reg_001.cs] arrTmp3 [0] : 42
+[09:03:17][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:17][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14234
+[09:03:17].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:17]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:18][CodeTable.cs] getDepartmentDesc (10145)231
+[09:03:18][CodeTable.cs] getBadgeTypeDesc (6) : 협력업체 키카드
+[09:03:18][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:18][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:18]PT : 1
+[09:03:18][BM_Reg_001.cs] showRightDetail () RIGHT_1 : -100
+[09:03:18][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[09:03:18][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 42
+[09:03:18][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:18][BM_Reg_001.cs] arrTmp1 [0] : -100
+[09:03:18][BM_Reg_001.cs] arrTmp2 [0] : -100
+[09:03:18][BM_Reg_001.cs] arrTmp3 [0] : 42
+[09:03:18][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:18][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14232
+[09:03:19].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:20]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:20][CodeTable.cs] getDepartmentDesc (10200)231
+[09:03:20][CodeTable.cs] getBadgeTypeDesc (2) : 방문
+[09:03:20][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:20][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:20]PT : 1
+[09:03:20][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 38
+[09:03:20][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 10
+[09:03:20][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 39
+[09:03:20][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:20][BM_Reg_001.cs] arrTmp1 [0] : 38
+[09:03:20][BM_Reg_001.cs] arrTmp2 [0] : 10
+[09:03:20][BM_Reg_001.cs] arrTmp3 [0] : 39
+[09:03:20][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:20][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14230
+[09:03:21].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[09:03:21]========================================================== [Reg.cs] selectionChanged ().........
+[09:03:21][CodeTable.cs] getDepartmentDesc (10200)231
+[09:03:22][CodeTable.cs] getBadgeTypeDesc (2) : 방문
+[09:03:22][CodeTable.cs] getBadgeStatDesc (0) : 작동
+[09:03:22][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[09:03:22]PT : 1
+[09:03:22][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 38
+[09:03:22][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 10
+[09:03:22][BM_Reg_001.cs] showRightDetail () RIGHT_3 : 39
+[09:03:22][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[09:03:22][BM_Reg_001.cs] arrTmp1 [0] : 38
+[09:03:22][BM_Reg_001.cs] arrTmp2 [0] : 10
+[09:03:22][BM_Reg_001.cs] arrTmp3 [0] : 39
+[09:03:22][BM_Reg_001.cs] arrTmp4 [0] : -100
+[09:03:22][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 14231
+[09:03:22].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ

@@ -1,0 +1,4 @@
+TODAY=`date '+%m%d'`.log
+echo $TODAY
+tail -f $TODAY
+

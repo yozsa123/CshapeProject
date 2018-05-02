@@ -1,0 +1,287 @@
+[10:40:49]============================ depart : 
+[10:40:50][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[10:40:50]============================ depart : 
+[10:40:50][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[10:40:51]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 125
+[10:40:51]========================================================== [Reg.cs] selectionChanged ().........
+[10:40:52][CodeTable.cs] getDepartmentDesc (10097)125
+[10:40:52][CodeTable.cs] getBadgeTypeDesc (1) : 직원
+[10:40:52][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:40:52][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:40:52]PT : 0
+[10:40:52][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 2~1~3
+[10:40:52][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 2~3
+[10:40:52][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:40:52][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:40:52][BM_Reg_001.cs] arrTmp1 [0] : 2
+[10:40:52][BM_Reg_001.cs] arrTmp1 [1] : 1
+[10:40:52][BM_Reg_001.cs] arrTmp1 [2] : 3
+[10:40:52][BM_Reg_001.cs] arrTmp2 [0] : 2
+[10:40:52][BM_Reg_001.cs] arrTmp2 [1] : 3
+[10:40:52][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:40:52][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:40:52][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40104
+[10:40:53].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:41:36]..................JJJJJJJJJJJJJJJJJJJ.................
+[10:41:37]========================  ,  check : 0
+[10:41:37][Parser.cs] parseCard JJJJJJJJ (100=000111222380,1=40104,2=4월4일,3=19800101,4=1,5=213,6=10136,7=100002,8=10106,9=ㄴㅁㅇ,10=ㅁㄴㅇ,11=ㅁㅇ,0=000212154541,13=4월4일,14=0,16=3,17=0,18=2,19=1,20=1,21=20160404,22=20460404,23=0,24=0,25=0,26=1,27=0,28=0,29=0,30=1,31=1,1000=1,2000=-100,3000=-100,4000=-100)
+[10:41:37]............... orgStr : 100=000111222380
+[10:41:37]............... orgStr : 1=40104
+[10:41:37]............... orgStr : 2=4월4일
+[10:41:37]............... orgStr : 3=19800101
+[10:41:37][Parser.cs] getDateTimeDesc (19800101)
+[10:41:37]............... orgStr : 4=1
+[10:41:37]............... orgStr : 5=213
+[10:41:37]............... orgStr : 6=10136
+[10:41:37]............... orgStr : 7=100002
+[10:41:37]............... orgStr : 8=10106
+[10:41:37]............... orgStr : 9=ㄴㅁㅇ
+[10:41:37]............... orgStr : 10=ㅁㄴㅇ
+[10:41:37]............... orgStr : 11=ㅁㅇ
+[10:41:37]............... orgStr : 0=000212154541
+[10:41:37]............... orgStr : 13=4월4일
+[10:41:37]............... orgStr : 14=0
+[10:41:37]............... orgStr : 16=3
+[10:41:37]............... orgStr : 17=0
+[10:41:37]............... orgStr : 18=2
+[10:41:37]............... orgStr : 19=1
+[10:41:37]............... orgStr : 20=1
+[10:41:37]............... orgStr : 21=20160404
+[10:41:37][Parser.cs] getDateTimeDesc (20160404)
+[10:41:37]............... orgStr : 22=20460404
+[10:41:37][Parser.cs] getDateTimeDesc (20460404)
+[10:41:37]............... orgStr : 23=0
+[10:41:37]............... orgStr : 24=0
+[10:41:37]........................FpNum : 0
+[10:41:37]............... orgStr : 25=0
+[10:41:37]............... orgStr : 26=1
+[10:41:37]............... orgStr : 27=0
+[10:41:37]............... orgStr : 28=0
+[10:41:37]............... orgStr : 29=0
+[10:41:37]............... orgStr : 30=1
+[10:41:37]............... orgStr : 31=1
+[10:41:37]............... orgStr : 1000=1
+[10:41:37]............... orgStr : 2000=-100
+[10:41:37]............... orgStr : 3000=-100
+[10:41:37]............... orgStr : 4000=-100
+[10:41:37][Parser.cs] parseCard () EMP query : insert into EMP  values ((select max(id+1) from EMP)  , '4월4일', '4월4일', '4월4일', '213', 10136,  100002, 10106,  'ㅁㄴㅇ',  'ㄴㅁㅇ',  'ㅁㅇ', getdate(),  CAST('1980-01-01' AS DATETIME),  1,  0,'','','','','','','')
+[10:41:37]_du.getByPass()0
+[10:41:37]_du.getMdmStatus()1
+[10:41:37]_du.getFpNum()0
+[10:41:37]_du.getVmStatus() : 0
+[10:41:37][[Parser.cs] parseCard () BADGE query : insert into BADGE  values( '000212154541' ,(select MAX(ID) from EMP) ,  '4월4일',  3,  0,1,1,1,  2,0,  0,  CAST('2016-04-04' AS DATETIME),  CAST('2046-04-04' AS DATETIME) , getdate(),  1,  1,  0,  1,  0,  0,  0,  1, 0, 0, 0, '1',  '-100',  '-100',  '-100','',  1 ,'N',CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME))
+[10:41:37][Parser.cs] makeSazinQuery () empID : 40104
+[10:41:37][Parser.cs] makeSazinQuery ()  Gloval.sazin.Query : insert into  EMP_IMAGE(EMPID,IMAGE) values ( (select max(ID) from EMP) , @Image )
+[10:41:37][[Parser.cs] parseCard () SAZIN query : insert into  EMP_IMAGE(EMPID,IMAGE) values ( (select max(ID) from EMP) , @Image )
+[10:41:37][BM_Reg.cs] clickSave () query : insert into EMP  values ((select max(id+1) from EMP)  , '4월4일', '4월4일', '4월4일', '213', 10136,  100002, 10106,  'ㅁㄴㅇ',  'ㄴㅁㅇ',  'ㅁㅇ', getdate(),  CAST('1980-01-01' AS DATETIME),  1,  0,'','','','','','','')^insert into BADGE  values( '000212154541' ,(select MAX(ID) from EMP) ,  '4월4일',  3,  0,1,1,1,  2,0,  0,  CAST('2016-04-04' AS DATETIME),  CAST('2046-04-04' AS DATETIME) , getdate(),  1,  1,  0,  1,  0,  0,  0,  1, 0, 0, 0, '1',  '-100',  '-100',  '-100','',  1 ,'N',CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME))^insert into  EMP_IMAGE(EMPID,IMAGE) values ( (select max(ID) from EMP) , @Image )
+[10:41:37][Request.cs] updateImage (BMS011, 100=000111222380,1=40104,2=4월4일,3=19800101,4=1,5=213,6=10136,7=100002,8=10106,9=ㄴㅁㅇ,10=ㅁㄴㅇ,11=ㅁㅇ,0=000212154541,13=4월4일,14=0,16=3,17=0,18=2,19=1,20=1,21=20160404,22=20460404,23=0,24=0,25=0,26=1,27=0,28=0,29=0,30=1,31=1,1000=1,2000=-100,3000=-100,4000=-100&insert into EMP  values ((select max(id+1) from EMP)  , '4월4일', '4월4일', '4월4일', '213', 10136,  100002, 10106,  'ㅁㄴㅇ',  'ㄴㅁㅇ',  'ㅁㅇ', getdate(),  CAST('1980-01-01' AS DATETIME),  1,  0,'','','','','','','')^insert into BADGE  values( '000212154541' ,(select MAX(ID) from EMP) ,  '4월4일',  3,  0,1,1,1,  2,0,  0,  CAST('2016-04-04' AS DATETIME),  CAST('2046-04-04' AS DATETIME) , getdate(),  1,  1,  0,  1,  0,  0,  0,  1, 0, 0, 0, '1',  '-100',  '-100',  '-100','',  1 ,'N',CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME),CAST('2046-04-04' AS DATETIME))^insert into  EMP_IMAGE(EMPID,IMAGE) values ( (select max(ID) from EMP) , @Image ), BMSI)
+[10:41:37][Request.cs] updateImage () : ImageByte.Length : 3846
+[10:41:37][Request.cs] BEFORE
+[10:41:37][Request.cs] AFTER
+[10:41:39]========================================================== [Reg.cs] selectionChanged ().........
+[10:41:39]========================================================== [Reg.cs] selectionChanged ().........
+[10:41:40][CodeTable.cs] getDepartmentDesc (10136)125
+[10:41:40][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[10:41:40][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:41:40][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:41:40]PT : 1
+[10:41:40][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:41:40][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:41:40][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:41:40][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:41:40][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:41:40][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:41:40][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:41:40][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:41:40][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[10:41:41].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:41:41][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:41:41][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:41:41][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:41:41][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:41:41][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:41:41][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:41:41][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:41:41][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:43:13]============================ depart : 
+[10:43:13][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[10:43:13]============================ depart : 
+[10:43:13][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[10:43:14]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 125
+[10:43:14]========================================================== [Reg.cs] selectionChanged ().........
+[10:43:15][CodeTable.cs] getDepartmentDesc (10136)125
+[10:43:15][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[10:43:15][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:43:15][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:43:15]PT : 1
+[10:43:15][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:43:15][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:43:15][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:43:15][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:43:15][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:43:15][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:43:15][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:43:15][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:43:15][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[10:43:16].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:53:20]============================ depart : 
+[10:53:21][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[10:53:21]============================ depart : 
+[10:53:21][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[10:53:23]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 125
+[10:53:23]========================================================== [Reg.cs] selectionChanged ().........
+[10:53:23][CodeTable.cs] getDepartmentDesc (10136)125
+[10:53:23][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[10:53:23][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:53:23][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:53:23]PT : 1
+[10:53:24][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:53:24][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:53:24][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:53:24][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:53:24][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:53:24][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:53:24][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:53:24][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:53:24][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[10:53:24].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:53:44]============================ depart : 전체
+[10:53:44][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[10:53:44]========================================================== [Reg.cs] selectionChanged ().........
+[10:53:44]========================================================== [Reg.cs] selectionChanged ().........
+[10:53:44]============================ depart : 전체
+[10:53:45][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[10:53:47][CodeTable.cs] getDepartmentDesc (10136)125
+[10:53:47][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[10:53:47][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:53:47][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:53:47]PT : 1
+[10:53:48][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:53:48][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:53:48][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:53:48][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:53:48][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:53:48][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:53:48][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:53:48][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:53:48][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[10:53:48].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:55:55]============================ depart : 전체
+[10:55:55][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[10:55:55]========================================================== [Reg.cs] selectionChanged ().........
+[10:55:55]========================================================== [Reg.cs] selectionChanged ().........
+[10:55:55]============================ depart : 전체
+[10:55:56][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[10:55:58][CodeTable.cs] getDepartmentDesc (10097)125
+[10:55:58][CodeTable.cs] getBadgeTypeDesc (1) : 직원
+[10:55:58][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[10:55:58][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:55:58]PT : 0
+[10:55:59][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 2~1~3
+[10:55:59][BM_Reg_001.cs] showRightDetail () RIGHT_2 : 2~3
+[10:55:59][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:55:59][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:55:59][BM_Reg_001.cs] arrTmp1 [0] : 2
+[10:55:59][BM_Reg_001.cs] arrTmp1 [1] : 1
+[10:55:59][BM_Reg_001.cs] arrTmp1 [2] : 3
+[10:55:59][BM_Reg_001.cs] arrTmp2 [0] : 2
+[10:55:59][BM_Reg_001.cs] arrTmp2 [1] : 3
+[10:55:59][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:55:59][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:55:59][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40104
+[10:55:59].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[10:56:00]============================ depart : 전체
+[10:56:00]============================ depart : 전체
+[10:56:01][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE   and e.NAME_1 like '%4월4일%'
+[10:56:01]========================================================== [Reg.cs] selectionChanged ().........
+[10:56:01]========================================================== [Reg.cs] selectionChanged ().........
+[10:56:01]============================ depart : 전체
+[10:56:01][Reg.cs] showCardList () ....................... query 2 : select  TOP 1 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE   and e.NAME_1 like '%4월4일%' order by SEQ desc
+[10:56:03][CodeTable.cs] getDepartmentDesc (10136)125
+[10:56:04][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[10:56:04][CodeTable.cs] getBadgeStatDesc (2) : RETURNED
+[10:56:04][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[10:56:04]PT : 1
+[10:56:04][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[10:56:04][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[10:56:04][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[10:56:04][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[10:56:04][BM_Reg_001.cs] arrTmp1 [0] : 1
+[10:56:04][BM_Reg_001.cs] arrTmp2 [0] : -100
+[10:56:04][BM_Reg_001.cs] arrTmp3 [0] : -100
+[10:56:04][BM_Reg_001.cs] arrTmp4 [0] : -100
+[10:56:04][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[10:56:04].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[11:09:26]============================ depart : 
+[11:09:26][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[11:09:26]============================ depart : 
+[11:09:26][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[11:09:28]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 125
+[11:09:28]========================================================== [Reg.cs] selectionChanged ().........
+[11:09:28][CodeTable.cs] getDepartmentDesc (10136)125
+[11:09:29][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[11:09:29][CodeTable.cs] getBadgeStatDesc (2) : RETURNED
+[11:09:29][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[11:09:29]PT : 1
+[11:09:29][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[11:09:29][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[11:09:29][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[11:09:29][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[11:09:29][BM_Reg_001.cs] arrTmp1 [0] : 1
+[11:09:29][BM_Reg_001.cs] arrTmp2 [0] : -100
+[11:09:29][BM_Reg_001.cs] arrTmp3 [0] : -100
+[11:09:29][BM_Reg_001.cs] arrTmp4 [0] : -100
+[11:09:29][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[11:09:30].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[11:16:11]============================ depart : 
+[11:16:12][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[11:16:12]============================ depart : 
+[11:16:12][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[11:16:14]
+
+................................................... [BM_Reg_001.cs] getCode () deparment code count : 125
+[11:16:14]========================================================== [Reg.cs] selectionChanged ().........
+[11:16:14][CodeTable.cs] getDepartmentDesc (10136)125
+[11:16:14][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[11:16:14][CodeTable.cs] getBadgeStatDesc (2) : RETURNED
+[11:16:14][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[11:16:14]PT : 1
+[11:16:15][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[11:16:15][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[11:16:15][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[11:16:15][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[11:16:15][BM_Reg_001.cs] arrTmp1 [0] : 1
+[11:16:15][BM_Reg_001.cs] arrTmp2 [0] : -100
+[11:16:15][BM_Reg_001.cs] arrTmp3 [0] : -100
+[11:16:15][BM_Reg_001.cs] arrTmp4 [0] : -100
+[11:16:15][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[11:16:15].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+[11:17:55]============================ depart : 전체
+[11:17:55][Reg.cs] showCardList () ....................... query 1 : select COUNT(*) as count from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y' 
+[11:17:55]========================================================== [Reg.cs] selectionChanged ().........
+[11:17:55]========================================================== [Reg.cs] selectionChanged ().........
+[11:17:56]============================ depart : 전체
+[11:17:56][Reg.cs] showCardList () ....................... query 2 : select  TOP 100 b.description as NAME,  b.SEQ as SEQ,  e.NAME_1 as personName,  b.bid as BID,  b.EMPID as EMPID,  d.DESCRIPTION  as DEPARTMENT,  d2.DESCRIPTION as DIVISION , b.DELETE_FLAG as DELETE_FLAG from BADGE b, EMP e, DEPARTMENT d, DIVISION d2 ,BADGE_TYPE_CODE bt  where b.EMPID = e.ID and e.DEPARTMENT = d.ID and e.DIVISION = d2.ID and bt.ID = b.TYPE and b.DELETE_FLAG != 'Y'  order by SEQ desc
+[11:17:58][CodeTable.cs] getDepartmentDesc (10136)125
+[11:17:58][CodeTable.cs] getBadgeTypeDesc (3) : 임시
+[11:17:58][CodeTable.cs] getBadgeStatDesc (0) : ACTIVE
+[11:17:58][CodeTable.cs] getBadgeFormatDesc (2) : Standard 12 Digit Badge
+[11:17:58]PT : 1
+[11:17:59][BM_Reg_001.cs] showRightDetail () RIGHT_1 : 1
+[11:17:59][BM_Reg_001.cs] showRightDetail () RIGHT_2 : -100
+[11:17:59][BM_Reg_001.cs] showRightDetail () RIGHT_3 : -100
+[11:17:59][BM_Reg_001.cs] showRightDetail () RIGHT_4 : -100
+[11:17:59][BM_Reg_001.cs] arrTmp1 [0] : 1
+[11:17:59][BM_Reg_001.cs] arrTmp2 [0] : -100
+[11:17:59][BM_Reg_001.cs] arrTmp3 [0] : -100
+[11:17:59][BM_Reg_001.cs] arrTmp4 [0] : -100
+[11:17:59][BM_Reg.cs] showSazin () query : select IMAGE from EMP_IMAGE where EMPID = 40105
+[11:17:59].............. JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ

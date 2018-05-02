@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FC41B47-5D38-4190-A3DC-C7653E9AE339}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BMClient</RootNamespace>
+    <AssemblyName>BMClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AESClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AESClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthRetryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthRetryForm.Designer.cs">
+      <DependentUpon>AuthRetryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_BatchProcessing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_BatchProcessing.designer.cs">
+      <DependentUpon>Bm_BatchProcessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Code_Modify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Code_Modify.Designer.cs">
+      <DependentUpon>Bm_Code_Modify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Login.designer.cs">
+      <DependentUpon>Bm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Main.designer.cs">
+      <DependentUpon>Bm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Opr_001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Opr_001.designer.cs">
+      <DependentUpon>Bm_Opr_001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Opr_002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Opr_002.designer.cs">
+      <DependentUpon>Bm_Opr_002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Opr_003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Opr_003.designer.cs">
+      <DependentUpon>Bm_Opr_003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_PinInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_PinInput.Designer.cs">
+      <DependentUpon>Bm_PinInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Reg_001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_Reg_001.Designer.cs">
+      <DependentUpon>BM_Reg_001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Reg_002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_Reg_002.designer.cs">
+      <DependentUpon>BM_Reg_002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Reg_Code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_Reg_Code.designer.cs">
+      <DependentUpon>BM_Reg_Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_ReReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_ReReg.designer.cs">
+      <DependentUpon>BM_ReReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_Result.Designer.cs">
+      <DependentUpon>BM_Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM_Compare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM_Compare.Designer.cs">
+      <DependentUpon>BM_Compare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Rpt_001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Rpt_001.designer.cs">
+      <DependentUpon>Bm_Rpt_001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Rpt_004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Rpt_004.designer.cs">
+      <DependentUpon>Bm_Rpt_004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Rpt_005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Rpt_005.designer.cs">
+      <DependentUpon>Bm_Rpt_005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_SearchCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_SearchCodeForm.Designer.cs">
+      <DependentUpon>Bm_SearchCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_001.designer.cs">
+      <DependentUpon>Bm_Sys_001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_002.designer.cs">
+      <DependentUpon>Bm_Sys_002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_003.designer.cs">
+      <DependentUpon>Bm_Sys_003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_004.designer.cs">
+      <DependentUpon>Bm_Sys_004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_005.designer.cs">
+      <DependentUpon>Bm_Sys_005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_006.designer.cs">
+      <DependentUpon>Bm_Sys_006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_007.designer.cs">
+      <DependentUpon>Bm_Sys_007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bm_Sys_008.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bm_Sys_008.designer.cs">
+      <DependentUpon>Bm_Sys_008.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSSDK.cs" />
+    <Compile Include="CardReadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardReadForm.Designer.cs">
+      <DependentUpon>CardReadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardRestoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardRestoreForm.Designer.cs">
+      <DependentUpon>CardRestoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailUnit.cs" />
+    <Compile Include="EndDateSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndDateSetting.designer.cs">
+      <DependentUpon>EndDateSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FP.cs" />
+    <Compile Include="Gloval.cs" />
+    <Compile Include="HubIniFile.cs" />
+    <Compile Include="ListUnit.cs" />
+    <Compile Include="LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForm.Designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyProperties.cs" />
+    <Compile Include="FPRegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPRegisterForm.designer.cs">
+      <DependentUpon>FPRegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parser.cs" />
+    <Compile Include="PlantRegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlantRegForm.Designer.cs">
+      <DependentUpon>PlantRegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AuthRetryForm.resx">
+      <DependentUpon>AuthRetryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_BatchProcessing.resx">
+      <DependentUpon>Bm_BatchProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Code_Modify.resx">
+      <DependentUpon>Bm_Code_Modify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_Compare.resx">
+      <DependentUpon>BM_Compare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Login.resx">
+      <DependentUpon>Bm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Main.resx">
+      <DependentUpon>Bm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Opr_001.resx">
+      <DependentUpon>Bm_Opr_001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Opr_002.resx">
+      <DependentUpon>Bm_Opr_002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Opr_003.resx">
+      <DependentUpon>Bm_Opr_003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_PinInput.resx">
+      <DependentUpon>Bm_PinInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_Reg_001.resx">
+      <DependentUpon>BM_Reg_001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_Reg_002.resx">
+      <DependentUpon>BM_Reg_002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_Reg_Code.resx">
+      <DependentUpon>BM_Reg_Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_ReReg.resx">
+      <DependentUpon>BM_ReReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM_Result.resx">
+      <DependentUpon>BM_Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Rpt_001.resx">
+      <DependentUpon>Bm_Rpt_001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Rpt_004.resx">
+      <DependentUpon>Bm_Rpt_004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Rpt_005.resx">
+      <DependentUpon>Bm_Rpt_005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_SearchCodeForm.resx">
+      <DependentUpon>Bm_SearchCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_001.resx">
+      <DependentUpon>Bm_Sys_001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_002.resx">
+      <DependentUpon>Bm_Sys_002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_003.resx">
+      <DependentUpon>Bm_Sys_003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_004.resx">
+      <DependentUpon>Bm_Sys_004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_005.resx">
+      <DependentUpon>Bm_Sys_005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_006.resx">
+      <DependentUpon>Bm_Sys_006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_007.resx">
+      <DependentUpon>Bm_Sys_007.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bm_Sys_008.resx">
+      <DependentUpon>Bm_Sys_008.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardReadForm.resx">
+      <DependentUpon>CardReadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardRestoreForm.resx">
+      <DependentUpon>CardRestoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndDateSetting.resx">
+      <DependentUpon>EndDateSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPRegisterForm.resx">
+      <DependentUpon>FPRegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlantRegForm.resx">
+      <DependentUpon>PlantRegForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YesNoForm.resx">
+      <DependentUpon>YesNoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QueryMaker.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="RightUnit.cs" />
+    <Compile Include="SystemInfo.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="YesNoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YesNoForm.Designer.cs">
+      <DependentUpon>YesNoForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

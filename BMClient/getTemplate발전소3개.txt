@@ -1,0 +1,128 @@
+USE [BioStar]
+GO
+
+/****** Object:  StoredProcedure [dbo].[INSERT_TEMPLATE_NEW]    Script Date: 05/16/2016 11:35:12 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+
+
+CREATE PROC [dbo].[GetTemplate]
+(
+	@sCardNo varchar(20),
+	@plantNum int
+
+)
+AS
+
+BEGIN
+
+	DECLARE @iERROR INT
+	DECLARE @nUserIdn INT
+	
+
+	BEGIN TRAN
+		-- (1) nUserIDn 값 가져오기
+	
+		select @nUserIdn = nUserIdn from TB_USER_CARD where sCardNo =@sCardNo and nStatus = 1
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1	
+		
+		
+
+				if(@plantNum = 1)
+					begin -- 각발전소 지문 조회
+						if((select COUNT(*) from  plant2FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant2FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--1발신규등록한다음 2발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant2FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant2FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+						else if((select COUNT(*) from  plant3FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant3FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--1발신규등록한다음 3발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant3FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant3FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+					end
+				else if(@plantNum = 2)
+					begin -- 각발전소 지문 조회
+						if((select COUNT(*) from  plant1FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant1FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--2발신규등록한다음 1발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant1FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant1FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+						else if((select COUNT(*) from  plant3FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant3FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--2발신규등록한다음 3발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant3FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant3FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+					end
+				else if(@plantNum = 3)
+					begin -- 각발전소 지문 조회
+						if((select COUNT(*) from  plant1FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant1FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--3발신규등록한다음 1발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant1FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant1FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+						else if((select COUNT(*) from  plant2FP.BioStar.dbo.TB_USER_TEMPLATE as f1 where f1.nUserIdn = (select f2.nUserIdn from  plant2FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)) > 0 )
+							begin
+								--3발신규등록한다음 2발 지문을 가져오는쿼리
+								insert into TB_USER_TEMPLATE select (select nUserIdn from TB_USER_CARD where sCardNo=@sCardNo)
+								,f1.nIndex,f1.bTemplate,f1.nTemplatecs,f1.nDuress,f1.nEncryption,
+								f1.nSecurityLevel,f1.nFingerIndex,f1.nTemplateIndex,f1.nEnrollQuality
+								from plant2FP.BioStar.dbo.TB_USER_TEMPLATE as f1
+								where f1.nUserIdn = (select f2.nUserIdn from  plant2FP.BioStar.dbo.TB_USER_card as f2 where f2.sCardNo=@sCardNo)
+							end
+					end
+			
+			
+
+		-- (4) DB 활성화
+		update TB_EXTNL_REQ set sValue = '1'
+		SET @iERROR = @@ERROR
+		IF @iERROR <> 0 GOTO Err_1
+		
+
+	COMMIT TRAN
+	RETURN @iERROR
+
+	Err_1:
+		ROLLBACK TRAN
+		RETURN @iERROR
+	
+
+end
+
+
+
+
+
+
+GO
+
+
